@@ -1,0 +1,75 @@
+# coding: utf-8
+<article class="property-listing property-listing-large rollable plisting" id="zpid_15096056" latitude="37777186" longitude="-122499820" role="article" statustype="1">
+ <figure class="photo left column property-thumb photoex" data-photourl="http://photos2.zillow.com/p_g/ISp1e531249f0g0000000000.jpg" role="img">
+  <a class="routable mask hdp-link" href="/homedetails/611-39th-Ave-San-Francisco-CA-94121/15096056_zpid/">
+   <img alt="611 39th Ave, San Francisco, CA" class="image-loaded" rel="nofollow" src="http://photos2.zillow.com/p_g/ISp1e531249f0g0000000000.jpg"/>
+   <figcaption class="photo-count">
+    1 Photo
+   </figcaption>
+  </a>
+ </figure>
+ <div class="right property-info">
+  <dl class="property-info-list col-1 column">
+   <dt class="type-forSale type show-icon">
+    <div class="type-icon">
+    </div>
+    <strong>
+     House For Sale
+    </strong>
+   </dt>
+   <dt class="price-large">
+    <strong>
+     $698,000
+    </strong>
+   </dt>
+   <div class="colabc">
+    <div class="zestimate">
+     <span class="right-align definition yui3-tooltip-trigger" data-tooltip-key="zest-tip-list">
+      Zestimate
+     </span>
+     <sup>
+      ®
+     </sup>
+     : $874K
+    </div>
+    <dt class="doz">
+     <span class="sorted-attribute">
+      1
+     </span>
+     day on Zillow
+    </dt>
+   </div>
+  </dl>
+  <dl class="property-info-list col-2 column">
+   <dt class="property-address">
+    <a class="hdp-link routable" href="/homedetails/611-39th-Ave-San-Francisco-CA-94121/15096056_zpid/" title="611 39th Ave, San Francisco, CA Real Estate">
+     611 39th Ave, San Francisco, CA
+    </a>
+   </dt>
+   <dt class="property-data">
+    3 b
+    <span class="hide-when-narrow">
+     e
+    </span>
+    d
+    <span class="hide-when-narrow">
+     s
+    </span>
+    , 1.0 ba
+    <span class="hide-when-narrow">
+     th
+    </span>
+    , 970 sqft
+   </dt>
+   <dt class="property-lot">
+    1,873 sqft lot
+   </dt>
+   <dt class="property-year">
+    Built in 1922
+   </dt>
+  </dl>
+ </div>
+ <div class="minibubble template hide">
+  <!--["$698,000","http://photos2.zillow.com/p_a/ISp1e531249f0g0000000000.jpg",3,1.0,970,false,null]-->
+ </div>
+</article>
