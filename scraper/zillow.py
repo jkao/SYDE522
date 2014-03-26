@@ -211,9 +211,7 @@ class ZillowScraper:
 
         # Attempt to parse listHTML HTML
         bs = BeautifulSoup(listHTML)
-
         articles = bs.find_all("article")
-
         return [self.extractAttributes(a) for a in articles]
 
 
