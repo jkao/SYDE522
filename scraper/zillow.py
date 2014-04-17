@@ -10,7 +10,7 @@ import urllib2
 BASE_ZILLOW_SEARCH_URL = "http://www.zillow.com/search/GetResults.htm"
 
 
-class ZillowScraper:
+class ZillowScraper(object):
     def requestParams(self, page):
         return \
             {

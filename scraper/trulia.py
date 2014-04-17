@@ -11,7 +11,7 @@ BASE_TRULIA_SEARCH_URL = "http://www.trulia.com/for_sale/%s/%s_p"
 DEFAULT_LOCATION = "San_Francisco,CA"
 
 
-class TruliaScraper:
+class TruliaScraper(object):
     def truliaSearchURL(self, location=DEFAULT_LOCATION, page=1):
         return (BASE_TRULIA_SEARCH_URL % (location, page))
 
