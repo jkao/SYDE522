@@ -2,6 +2,5 @@
 
 
 **TODO:**
-- Data Cleaner
 - Build out Lasso Regressor
 - Build out KNN Regressor
