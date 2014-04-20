@@ -23,9 +23,9 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 
         # Experiment 2
         print("Experiment 2: LassoLarsCV")
@@ -35,9 +35,9 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 
         # Experiment 3
         print("Experiment 3: LassoLarsIC using aic")
@@ -47,9 +47,9 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 
         # Experiment 4
         print("Experiment 4: LassoLarsIC using aic")
@@ -59,9 +59,9 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 
         # Experiment 5
         print("Experiment 5: Linear Regression")
@@ -71,9 +71,9 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 
         # Experiment 6
         print("Experiment 6: Ridge Regression")
@@ -83,7 +83,7 @@ class LassoRegressor(object):
         mse_scores = \
             cross_val_score(model_1, self.X, self.y, cv=train_test_cv, scoring='mean_squared_error')
         print "R2 ", r2_scores
-        print "R2 ", np.mean(r2_scores)
+        print "R2 ", np.median(r2_scores)
         print "MSE: ", mse_scores
-        print "MSE ", np.mean(mse_scores)
+        print "MSE ", np.median(mse_scores)
 

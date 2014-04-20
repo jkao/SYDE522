@@ -50,11 +50,11 @@ class KnnRegressor(object):
                 mse = metrics.mean_squared_error(y_test, y_pred)
                 mses.append(mse)
 
-            avg_r2s = np.mean(r2s)
+            avg_r2s = np.median(r2s)
             if avg_r2s > max_r2:
                 max_r2 = avg_r2s
                 max_r2_neighbors = n_neighbors
-            avg_mses = np.mean(mses)
+            avg_mses = np.median(mses)
             if avg_mses < min_mses:
                 min_mses = avg_mses
                 min_mse_neighbors = n_neighbors
@@ -99,10 +99,15 @@ class KnnRegressor(object):
                 r2 = metrics.r2_score(y_test, y_pred)
                 r2s.append(r2)
 
-            avg_r2s = np.mean(r2s)
+                # MSE score
+                mse = metrics.mean_squared_error(y_test, y_pred)
+                mses.append(mse)
+
+            avg_r2s = np.median(r2s)
             if avg_r2s > max_r2:
                 max_r2 = avg_r2s
                 max_r2_components = n_components
+            avg_mses = np.median(mses)
             if avg_mses < min_mses:
                 min_mses = avg_mses
                 min_mse_neighbors = n_neighbors
