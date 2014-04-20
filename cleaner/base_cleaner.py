@@ -102,5 +102,5 @@ class BaseCleaner(object):
     def clean_data(self):
         cleaned_data = \
             [clean_entity(e) for e in self.data if self.is_valid_entity(e)]
-        return normalize_data(cleaned_data)
+        return cleaned_data
 

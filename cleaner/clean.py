@@ -4,7 +4,7 @@ from trulia_cleaner import TruliaCleaner
 from zillow_cleaner import ZillowCleaner
 
 if __name__ == "__main__":
-    OUTPUT_FILE = "data/cleaned.json"
+    OUTPUT_FILE = "data/cleaned_no_normal.json"
 
     # Clean data from the two sources
     tcc = TruliaCleaner(
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     # Consolidate and normalize the data
     consolidated = t_data + z_data
-    tcc.normalize_data(consolidated)
+    #tcc.normalize_data(consolidated)
 
     # Output data
     with open(OUTPUT_FILE, "w") as f:
